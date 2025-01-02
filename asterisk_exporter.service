@@ -7,7 +7,7 @@ After=network-online.target
 User=root
 Group=root
 Type=simple
-ExecStart=/usr/local/bin/asterisk_exporter_amd64 -port 9110 -trunkfile "/usr/local/bin/trunk_names.txt"
+ExecStart=/usr/local/bin/asterisk_exporter_amd64 -port 9110 -trunkfile "/usr/local/bin/trunk_names.txt" -collect-channelsdetail=true -label=asterisk -authfile /usr/local/bin/auth.txt
 
 [Install]
 WantedBy=multi-user.target
