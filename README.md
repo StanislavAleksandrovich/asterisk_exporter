@@ -4,13 +4,14 @@ The Asterisk Exporter is a lightweight and efficient Prometheus exporter designe
 # How to use
 1. Download the latest binary release
 2. Copy this binary to /usr/local/bin
-3. Get your peers' names using the command asterisk -rvx "sip show peers"
-4. create file trunk_names.txt
-5. put sip name from step-3 to trunk_names.txt
-6. Copy the asterisk_exporter.service file to the /etc/systemd/system/ directory
-7. systemctl start asterisk_exporter
-8. systemctl enable asterisk_exporter
-9. Add config to prometheus.yml file:
+3. Create auth.txt for auth,set username password in given format username:password
+4. Get your peers' names using the command asterisk -rvx "sip show peers"
+5. create file trunk_names.txt
+6. put sip name from step-4 to trunk_names.txt
+7. Copy the asterisk_exporter.service file to the /etc/systemd/system/ directory
+8. systemctl start asterisk_exporter
+9. systemctl enable asterisk_exporter
+10. Add config to prometheus.yml file:
 ```
 scrape_configs:
   - job_name: 'asterisk_exporter'
