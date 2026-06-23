@@ -1,6 +1,6 @@
 # Asterisk Metrics Exporter
 
-A Prometheus exporter for [Asterisk](https://www.asterisk.org/) PBX. It exposes
+A Prometheus exporter for Asterisk PBX. It exposes
 PJSIP and SIP channel, peer, QoS, and system metrics over HTTP so they can be
 scraped by Prometheus and visualized in Grafana.
 
@@ -241,7 +241,18 @@ exported metric names.
 
 ---
 
-## Contributing
+## License
 
-Issues and pull requests are welcome. Please open an issue to discuss
-significant changes before submitting a PR.
+This is **proprietary freeware**. The source code is **not** provided and
+remains the property of the author.
+
+You may download, install, and run this binary free of charge for both personal
+and commercial use. You may **not** reverse engineer, modify, redistribute,
+resell, or sublicense it. See the [LICENSE](LICENSE) file for the full terms.
+
+The software is provided "as is", without warranty of any kind.
+
+## Support
+
+This project does not provide source code or accept code contributions. For
+bug reports or feature requests, please open an issue.
