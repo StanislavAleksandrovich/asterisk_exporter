@@ -241,10 +241,6 @@ exported metric names.
 
 ---
 
-## License
-
-Specify your license here (e.g. MIT). Add a `LICENSE` file to the repository.
-
 ## Contributing
 
 Issues and pull requests are welcome. Please open an issue to discuss
